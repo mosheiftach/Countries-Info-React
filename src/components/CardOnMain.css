@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap');
+
+.CardOnMain {
+    font-family: 'Urbanist', sans-serif;
+    font-style: normal;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* this adds the "card" effect */
+    justify-content: flex-start;
+    width: 264px;
+    height: 336px;
+    margin-bottom: 75px;
+    background: var(--components-bg-color);
+    color: var(--text-color);
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image {
+    height: 160px;
+    width: 264px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#card-header {
+    margin-left: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+}
+
+.card-info {
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 26px;
+}
