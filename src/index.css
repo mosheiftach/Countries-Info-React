@@ -1,0 +1,12 @@
+:root {
+    --components-bg-color: #FFFFFFFF;
+    --text-color: #111517;
+    --body-color: #F2F2F2;
+    --body-color-on-country-page:#FFFFFFFF;
+  }
+
+  body{
+    background-color: var(--body-color);
+  }
+  
+
